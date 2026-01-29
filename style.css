@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: auto;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(23, 7, 69); */
+    background-image: linear-gradient(to right, rgb(52, 52, 112), rgb(5, 1, 31));
+    color: white;
+    padding: 18px 0;
+    font-family: "Playwrite AU QLD", cursive;
+    z-index: 10;
+}
+
+.logo {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    /* cursor: pointer; */
+    z-index: 100;
+}
+
+.nav-links a:hover {
+    color: rgb(195, 195, 195);
+    transform: all 0.5s;
+}
+
+.hero {
+    background-color: rgb(232, 253, 255);
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+
+}
+
+/* .one {
+    padding: 15px;
+display: flex;
+    font-size: 55px;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+.two {
+    font-size: 45px;
+    position: relative;
+    right: -40px;
+}
+
+.three {
+    font-size: 45px;
+    position: relative;
+    right: 100px;
+    top: -18px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.middle img {
+    width: 500px;
+    position: relative;
+    top: -150px;
+    left: -50px;
+}
+
+/* .hero-right img {
+    width: 500px;
+    position: relative;
+    left: 5vw;
+    top: -145px;
+} */
+
+.hero-left button {
+    cursor: pointer;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    right: -43px;
+    top: 15px;
+}
+
+button:hover {
+    background-color: rgb(52, 52, 112);
+    transition: all 0.3s;
+}
+
+.projects {
+    background-color: rgb(255, 232, 232);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+}
+
+.left img {
+    width: 40vw;
+}
+
+.right p {
+    width: 500px;
+}
+
+.right h1 {
+    text-decoration: underline;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 1300px;
+    height: 550px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.down:hover{
+    box-shadow: 5px 5px 5px 5px rgb(101, 101, 101);
+    width: 100vw;
+        background-color: bisque;
+
+}
+
+.projects-one {
+    background-color: rgb(255, 232, 232);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+}
+
+.right-one img {
+    width: 40vw;
+}
+
+.left-one p {
+    width: 500px;
+}
+
+.left-one h1 {
+    text-decoration: underline;
+}
+
+.down-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 1300px;
+    height: 550px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.down-one:hover{
+    box-shadow: 5px 5px 5px 5px rgb(101, 101, 101);
+    width: 100vw;
+    background-color: bisque;
+}
+
+.more {
+    text-align: center;
+    font-size: 24px;
+    font-family: "poppins", sans-serif;
+    padding: 20px;
+    background-color: rgb(255, 232, 232);
+
+}
+
+footer .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 60px;
+    font-family: "poppins", sans-serif;
+}
+
+.foot-right a {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.scrolling {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(232, 253, 255); */
+    padding: 50px;
+    gap: 100px;
+    background: transparent;
+    cursor: pointer;
+    /* transition: smooth 0.3s; */
+    
+}
+
+/* .scrolling img:hover{
+    width: 100px;
+    
+} */
