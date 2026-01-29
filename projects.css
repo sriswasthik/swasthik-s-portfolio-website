@@ -158,5 +158,19 @@ footer .footer {
     .project-info p,
     .left-one p {
         width: 80vw;
+        padding: 20px;
+        padding-bottom: 0px;
     }
+
+    .project-info h1,
+    .left-one h1 {
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+
+    .project-info h2,
+    .left-one h2 {
+        padding-left: 20px;
+}
+
 }
